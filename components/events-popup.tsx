@@ -26,7 +26,7 @@ export function EventsPopup({ open, onOpenChange }: EventsPopupProps) {
             All Events
           </DialogTitle>
           <DialogDescription className="text-muted-foreground">
-            14 exciting events across Stage, Arena, and Creative categories.
+            Exciting events across Stage, Arena, and Creative categories.
             Click any event to learn more and register.
           </DialogDescription>
         </DialogHeader>
@@ -37,7 +37,7 @@ export function EventsPopup({ open, onOpenChange }: EventsPopupProps) {
               return (
                 <Link
                   key={event.id}
-                  href={`/events#${event.id}`}
+                  href={`/events/${event.id}`}
                   onClick={() => onOpenChange(false)}
                   className="group flex items-center gap-4 rounded-xl border border-border bg-secondary/50 p-4 transition-all hover:border-primary/50 hover:bg-secondary"
                 >

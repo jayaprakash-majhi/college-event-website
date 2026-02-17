@@ -1,7 +1,8 @@
 "use client"
 
 import { useState } from "react"
-import { ArrowUpRight, Users } from "lucide-react"
+import Link from "next/link"
+import { ArrowRight, Users } from "lucide-react"
 import { events, type EventData } from "@/lib/events"
 
 const categories = [
@@ -27,11 +28,10 @@ export function EventsGrid() {
           <button
             key={cat.key}
             onClick={() => setFilter(cat.key)}
-            className={`rounded-full px-5 py-2.5 text-sm font-medium transition-all ${
-              filter === cat.key
+            className={`rounded-full px-5 py-2.5 text-sm font-medium transition-all ${filter === cat.key
                 ? "bg-primary text-primary-foreground"
                 : "bg-secondary text-muted-foreground hover:text-foreground"
-            }`}
+              }`}
           >
             {cat.label}
             {cat.key !== "all" && (
@@ -57,9 +57,10 @@ function EventCard({ event }: { event: EventData }) {
   const Icon = event.icon
 
   return (
-    <div
+    <Link
+      href={`/events/${event.id}`}
       id={event.id}
-      className="group relative overflow-hidden rounded-2xl border border-border bg-card p-6 transition-all hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5 scroll-mt-28"
+      className="group relative block overflow-hidden rounded-2xl border border-border bg-card p-6 transition-all hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5 scroll-mt-28"
     >
       {/* Glow */}
       <div
@@ -91,17 +92,12 @@ function EventCard({ event }: { event: EventData }) {
             <Users className="h-3.5 w-3.5" />
             {event.teamSize}
           </div>
-          <a
-            href={event.registrationLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 rounded-full bg-primary px-5 py-2 text-sm font-semibold text-primary-foreground transition-all hover:brightness-110"
-          >
-            Register
-            <ArrowUpRight className="h-4 w-4" />
-          </a>
+          <span className="inline-flex items-center gap-1.5 rounded-full bg-primary px-5 py-2 text-sm font-semibold text-primary-foreground transition-all group-hover:brightness-110">
+            View Details
+            <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
+          </span>
         </div>
       </div>
-    </div>
+    </Link>
   )
 }

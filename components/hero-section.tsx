@@ -1,10 +1,59 @@
 "use client"
 
-import { useState } from "react"
+import { useEffect, useState } from "react";
 import Link from "next/link"
 import Image from "next/image"
 import { ArrowRight, Calendar, MapPin } from "lucide-react"
 import { EventsPopup } from "@/components/events-popup"
+
+
+
+
+
+export default function Countdown() {
+  const targetDate = new Date("March 2, 2026 00:00:00").getTime();
+  const [timeLeft, setTimeLeft] = useState("");
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      const now = new Date().getTime();
+      const distance = targetDate - now;
+
+      if (distance <= 0) {
+        clearInterval(interval);
+        setTimeLeft("Event Started 🎉");
+        return;
+      }
+
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor(
+        (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+      );
+      const minutes = Math.floor(
+        (distance % (1000 * 60 * 60)) / (1000 * 60)
+      );
+      const seconds = Math.floor(
+        (distance % (1000 * 60)) / 1000
+      );
+
+      setTimeLeft(
+        `${days}d ${hours}h ${minutes}m ${seconds}s`
+      );
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  return (
+    <div className="flex items-center gap-2">
+      <Calendar className="h-4 w-4" />
+      <span>{timeLeft}</span>
+    </div>
+  );
+}
+
+
+
 
 export function HeroSection() {
   const [popupOpen, setPopupOpen] = useState(false)
@@ -28,18 +77,32 @@ export function HeroSection() {
 
       <div className="relative z-10 mx-auto max-w-5xl px-4 py-32 text-center md:px-6">
         {/* Badge */}
+
+
         <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-2 text-sm text-primary">
-          <Calendar className="h-4 w-4" />
-          <span>Coming Soon</span>
+
+
+          <Countdown />
           <span className="mx-1 text-primary/40">|</span>
           <MapPin className="h-4 w-4" />
-          <span>Your College Campus</span>
+          <span>GEC , Bhubaneswar</span>
         </div>
 
         {/* Title */}
         <h1 className="mb-6 text-5xl font-bold leading-tight tracking-tighter text-foreground font-serif sm:text-7xl md:text-8xl lg:text-9xl">
-          <span className="text-balance">SRIJANA 2K26</span>
+          <span className="text-balance" style={{ textShadow: "5px 5px 10px rgba(255, 132, 0, 0.5)" }}>𝙎𝙍𝙄𝙅𝘼𝙉𝘼</span>
         </h1>
+        <h2 className="-mt-5 mb-3 text-xl font-bold leading-tight tracking-tighter text-foreground font-serif sm:text-2xl md:text-3xl lg:text-4xl">
+          <span
+            className="text-balance"
+            style={{ textShadow: "5px 5px 10px rgba(255, 132, 0, 0.5)" }}
+          >
+            𝔸𝕣𝕥 𝔸𝕟𝕕 ℂ𝕦𝕝𝕥𝕦𝕣𝕖 𝔽𝕖𝕤𝕥
+          </span>
+        </h2>
+
+
+
 
         <p className="mx-auto mb-4 max-w-2xl text-lg text-muted-foreground md:text-xl leading-relaxed">
           Gandhi Engineering College.
@@ -72,8 +135,8 @@ export function HeroSection() {
           {[
             { number: "14", label: "Events" },
             { number: "500+", label: "Participants" },
-            { number: "3", label: "Days" },
-            { number: "50K+", label: "Prize Pool" },
+            { number: "2", label: "Days" },
+            // { number: "50K+", label: "Prize Pool" },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
               <div className="text-3xl font-bold text-primary md:text-4xl font-serif">

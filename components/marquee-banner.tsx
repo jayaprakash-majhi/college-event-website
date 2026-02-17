@@ -5,7 +5,8 @@ export function MarqueeBanner() {
   const doubled = [...items, ...items]
 
   return (
-    <div className="overflow-hidden border-y border-border bg-primary py-4">
+    <div className="overflow-hidden border-y border-border bg-gradient-to-r from-[#00ffff] to-[#ff7a00] py-4">
+
       <div className="flex animate-marquee whitespace-nowrap">
         {doubled.map((name, i) => (
           <span

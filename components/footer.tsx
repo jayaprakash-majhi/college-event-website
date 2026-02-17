@@ -25,6 +25,18 @@ export function Footer() {
             >
               Events
             </Link>
+            <Link
+              href="/contact"
+              className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+            >
+              Contact Us
+            </Link>
+            <Link
+              href="/webTeam"
+              className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+            >
+              WebTeam
+            </Link>
           </nav>
           <p className="text-sm text-muted-foreground">
             SRIJANA 2026. All rights reserved.

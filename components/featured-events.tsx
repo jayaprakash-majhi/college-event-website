@@ -16,7 +16,7 @@ export function FeaturedEvents() {
               Featured
             </p>
             <h2 className="text-3xl font-bold text-foreground font-serif md:text-5xl">
-              Hot Events
+              Crazy Events
             </h2>
           </div>
           <Link
@@ -34,7 +34,7 @@ export function FeaturedEvents() {
             return (
               <Link
                 key={event.id}
-                href={`/events#${event.id}`}
+                href={`/events/${event.id}`}
                 className="group relative overflow-hidden rounded-2xl border border-border bg-background p-6 transition-all hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5"
               >
                 {/* Glow effect */}
