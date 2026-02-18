@@ -29,7 +29,7 @@ export interface EventData {
 
 export const events: EventData[] = [
   {
-    id: "art-and-craft-versal",
+    id: "art-and-craft",
     name: "Art & Craft",
     tagline: "Colour Your World",
     description:
