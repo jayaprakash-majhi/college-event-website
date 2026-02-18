@@ -6,7 +6,7 @@ export default function ContactPage() {
 
                 {/* Heading */}
                 <h1 className="text-3xl md:text-4xl font-bold text-center font-serif mb-8 text-orange-400">
-                    Contact Us
+                    Facaulty Cordinator
                 </h1>
 
                 {/* Faculty 1 */}
@@ -14,7 +14,11 @@ export default function ContactPage() {
                     <h2 className="text-xl font-semibold mb-2 text-orange-300">
                         Prof. Himanshu Bhusan Mohapatra
                     </h2>
+                    <h3 className=" text-orange-300">
+                        himansu.mohapatra@gec.edu.in
+                    </h3>
                     <p className="text-orange-200">📞 +91 7978552954</p>
+
                 </div>
 
                 {/* Faculty 2 */}
@@ -22,12 +26,13 @@ export default function ContactPage() {
                     <h2 className="text-xl font-semibold mb-2 text-orange-300">
                         Prof. Ambika Prasad Hota
                     </h2>
+                    <h3 className=" text-orange-300">ambika.hota@gec.edu.in</h3>
                     <p className="text-orange-200">📞 +91 9439687716</p>
                 </div>
 
                 {/* Email Section */}
                 <div className="p-4 rounded-xl border border-orange-500 bg-orange-500 text-black font-semibold text-center">
-                    📧 binitn165@gmail.com
+                    Gandhi Vihar, Badaraghunathpur, PO:Madanpur,Near Janla Bhubaneswar,Orissa-752054
                 </div>
 
             </div>
