@@ -101,10 +101,10 @@ function EventCard({ event }: { event: EventData }) {
         </div>
 
         {/* Second line: Coordinator */}
-        <div className="mt-2 flex items-center gap-1.5 text-xs text-muted-foreground">
+        {/* <div className="mt-2 flex items-center gap-1.5 text-xs text-muted-foreground">
           <Users className="h-3.5 w-3.5" />
           <span>{event.coordinator}</span>
-        </div>
+        </div> */}
 
       </div>
     </Link>
