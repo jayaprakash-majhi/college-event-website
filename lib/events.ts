@@ -83,7 +83,7 @@ export const events: EventData[] = [
     icon: Paintbrush,
     color: "hsl(340 82% 52%)",
     category: "creative",
-    teamSize: "Individual or Team (max 4)",
+    teamSize: "Individual",
     registrationLink: "https://forms.gle/t8rZSS2caRUDe2JZA",
   },
   {
@@ -121,7 +121,7 @@ export const events: EventData[] = [
     icon: Video,
     color: "hsl(262 83% 58%)",
     category: "creative",
-    teamSize: "Individual or Team (max 4)",
+    teamSize: "Individual",
     registrationLink: "https://forms.gle/U66VngsbyLNsjeKYA",
   },
   {
@@ -180,7 +180,7 @@ export const events: EventData[] = [
     icon: Book,
     color: "hsl(200 80% 50%)",
     category: "arena",
-    teamSize: "Individual or Team (max 4)",
+    teamSize: "Team (max 2)",
     registrationLink: "https://forms.gle/ZZ5NVCdwJzLrv9dt6",
   },
   {
@@ -209,7 +209,7 @@ export const events: EventData[] = [
     icon: Paintbrush,
     color: "hsl(38 92% 50%)",
     category: "creative",
-    teamSize: "Individual or Team (max 4)",
+    teamSize: "Individual",
     registrationLink: "https://forms.gle/kt9wFyTVjiH4gvFD7",
   },
   {
@@ -238,7 +238,7 @@ export const events: EventData[] = [
     icon: Paintbrush,
     color: "hsl(280 60% 55%)",
     category: "creative",
-    teamSize: "Individual or Team (max 4)",
+    teamSize: "Individual",
     registrationLink: "https://forms.gle/H6Ah5SQ5Mm6bzW7V6",
   },
   {
@@ -268,7 +268,7 @@ export const events: EventData[] = [
     icon: Smile,
     color: "hsl(15 85% 55%)",
     category: "stage",
-    teamSize: "Individual or Team (max 4)",
+    teamSize: "Individual",
     registrationLink: "https://forms.gle/siRMCXMfPJUZV8JX8",
   },
   {
@@ -296,7 +296,7 @@ export const events: EventData[] = [
     icon: Trophy,
     color: "hsl(45 93% 47%)",
     category: "arena",
-    teamSize: "4-6 members",
+    teamSize: "Team (Size 4)",
     registrationLink: "https://forms.gle/wmUPWvyNQyFS3Xrd9",
   },
   {
@@ -324,7 +324,7 @@ export const events: EventData[] = [
     icon: Search,
     color: "hsl(0 84% 60%)",
     category: "arena",
-    teamSize: "1-6 members",
+    teamSize: "Team (Size 4-6)",
     registrationLink: "https://forms.gle/eWVnZHx7mhvMtKTNA",
   },
   {
@@ -377,7 +377,7 @@ export const events: EventData[] = [
     icon: SmileIcon,
     color: "hsl(320 70% 50%)",
     category: "creative",
-    teamSize: "Individual or Team (max 4)",
+    teamSize: "Individual",
     registrationLink: "https://forms.gle/YkY4KtLwwcGZnt7x7",
   },
   {
@@ -406,7 +406,7 @@ export const events: EventData[] = [
     icon: Camera,
     color: "hsl(220 70% 55%)",
     category: "creative",
-    teamSize: "Individual or Team (max 4)",
+    teamSize: "Individual",
     registrationLink: "https://forms.gle/APdCpgjXVvxjLxMQ9",
   },
   {
@@ -444,7 +444,7 @@ export const events: EventData[] = [
     icon: ChefHat,
     color: "hsl(50 90% 50%)",
     category: "stage",
-    teamSize: "Individual or Team (max 4)",
+    teamSize: "Team (size 2-4)",
     registrationLink: "https://forms.gle/mECKGPw5x4UNgLps5",
   },
 ]
