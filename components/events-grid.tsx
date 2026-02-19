@@ -93,7 +93,6 @@ function EventCard({ event }: { event: EventData }) {
             <Users className="h-3.5 w-3.5" />
             <span>{event.teamSize}</span>
           </div>
-
           <span className="inline-flex items-center gap-1.5 rounded-full bg-primary px-5 py-2 text-sm font-semibold text-primary-foreground transition-all group-hover:brightness-110">
             View Details
             <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
