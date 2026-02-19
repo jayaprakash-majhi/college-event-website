@@ -29,7 +29,7 @@ export function Footer() {
               href="/contact"
               className="text-sm text-muted-foreground transition-colors hover:text-foreground"
             >
-              Contact Us
+              Reach Us
             </Link>
             <Link
               href="/webTeam"

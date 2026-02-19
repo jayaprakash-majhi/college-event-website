@@ -62,6 +62,9 @@ export function FeaturedEvents() {
                   <p className="mb-4 text-sm text-muted-foreground">
                     {event.tagline}
                   </p>
+                  <p className="mb-4 text-sm text-muted-foreground">
+                    {event.description}
+                  </p>
 
                   {/* First line: Team Size + View Button */}
                   <div className="flex items-center justify-between">
@@ -77,9 +80,7 @@ export function FeaturedEvents() {
                   </div>
 
                   {/* Second line: Coordinator */}
-                  <div className="mt-2 flex items-center gap-1.5 text-xs text-muted-foreground">
 
-                  </div>
 
                 </div>
               </Link>
