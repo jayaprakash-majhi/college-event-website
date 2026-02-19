@@ -33,7 +33,7 @@ export const events: EventData[] = [
   {
     id: "art-and-craft",
     name: "Art & CraftVV",
-    tagline: "Colour Your World",
+    tagline: "Colour Your Worldc",
     description:
       "Creative, hands-on activities that use imagination and skill to produce unique and functional art pieces.",
     fullDescription:
