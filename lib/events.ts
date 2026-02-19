@@ -499,7 +499,7 @@ export const events: EventData[] = [
     icon: ChefHat,
     color: "hsl(50 90% 50%)",
     category: "stage",
-    teamSize: "Team (size 2-4)",
+    teamSize: "Team (size 2)",
     registrationLink: "https://forms.gle/mECKGPw5x4UNgLps5",
   },
 ]
