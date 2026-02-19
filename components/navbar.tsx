@@ -41,6 +41,24 @@ export function Navbar() {
           >
             Events
           </Link>
+          <Link
+            href="/announcement"
+            className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+          >
+            Announcement
+          </Link>
+          <Link
+            href="/schedule"
+            className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+          >
+            Schedule
+          </Link>
+          <Link
+            href="/result"
+            className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+          >
+            Result
+          </Link>
 
 
           <Link
@@ -93,6 +111,27 @@ export function Navbar() {
               className="rounded-lg px-4 py-3 text-foreground transition-colors hover:bg-secondary"
             >
               Events
+            </Link>
+            <Link
+              href="/announcement"
+              onClick={() => setIsOpen(false)}
+              className="rounded-lg px-4 py-3 text-foreground transition-colors hover:bg-secondary"
+            >
+              Announcement
+            </Link>
+            <Link
+              href="/schedule"
+              onClick={() => setIsOpen(false)}
+              className="rounded-lg px-4 py-3 text-foreground transition-colors hover:bg-secondary"
+            >
+              Schedule
+            </Link>
+            <Link
+              href="/result"
+              onClick={() => setIsOpen(false)}
+              className="rounded-lg px-4 py-3 text-foreground transition-colors hover:bg-secondary"
+            >
+              Result
             </Link>
             <Link
               href="/contact"

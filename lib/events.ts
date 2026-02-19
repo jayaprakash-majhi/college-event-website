@@ -24,8 +24,10 @@ export interface EventData {
   color: string
   category: "stage" | "arena" | "creative"
   teamSize: string
+  coordinator: string   // 👈 NEW FIELD
   registrationLink: string
 }
+
 
 export const events: EventData[] = [
   {
@@ -35,26 +37,26 @@ export const events: EventData[] = [
     description:
       "Creative, hands-on activities that use imagination and skill to produce unique and functional art pieces.",
     fullDescription:
-      "Art & Craft Versal is a vibrant event under SRIJANA where participants showcase their creativity through handmade artworks. From paintings and paper crafts to eco-friendly models and innovative DIY creations, this event celebrates imagination and originality. Bring your artistic vision to life and impress the judges with your creativity, detailing, and presentation skills.",
+      "The Art Gallery Event is a celebration of creativity, showcasing the incredible talent of our students. This event is an opportunity for students to display their artwork, ranging from paintings, drawings, sculptures for recognition and prizes. The gallery space will be set up with great care to ensure that each piece is displayed in the best possible light, creating a vibrant and engaging environment for visitors. Students and guests are encouraged to walk around and explore the artwork, engage with the artists, and appreciate the diverse range of styles and techniques on display. The participants may sell their art/craft and place a price tag along with it. It will be sold on a first-come, first-served basis.",
     rules: [
-      "Participants can enter individually or as a team (maximum 4 members).",
-      "All materials must be brought by participants.",
-      "Time limit for completion will be announced before the event.",
-      "Use of harmful or dangerous materials is strictly prohibited.",
-      "Participants must maintain cleanliness of their workspace.",
-      "Judging will be based on creativity, originality, presentation, and overall impact.",
+      "The interpretation and clarity of the theme to the viewer. ",
+      "The creativity, uniqueness, and originality of the depicted art. ",
+      "Quality of artistic composition and overall design. ",
+      "Colour, tone, and balance of the image within its space. ",
+      "Overall impression of the art. What is the effect of the artwork in general and as a whole? ",
     ],
     evaluation: [
-      "Creativity & Originality (30%) - Unique use of materials and fresh ideas.",
-      "Artistic Skill (25%) - Technique, precision, and craftsmanship.",
-      "Presentation (20%) - Visual appeal and final look of the artwork.",
-      "Theme Relevance (15%) - Connection to the given theme.",
-      "Completion & Detailing (10%) - How finished and detailed the work is.",
+      "Originality  (20%)",
+      "Creativity (25%)",
+      "Technique (20%)",
+      "Colour Combination  (15%)",
+      "Overall Presentation & Impact (20%)",
     ],
     icon: Paintbrush,
     color: "hsl(25 95% 53%)",
     category: "creative",
-    teamSize: "Individual or Team (max 4)",
+    teamSize: "Individual",
+    coordinator: "Prof. Namrata Mishra (+91 778528696)",
     registrationLink: "https://forms.gle/rabfa6KE4CxLM8mJ8",
   },
   {
@@ -84,6 +86,7 @@ export const events: EventData[] = [
     color: "hsl(340 82% 52%)",
     category: "creative",
     teamSize: "Individual or Team (max 4)",
+    coordinator: "Prof. Irani Majumdar (+91 7008848775)",
     registrationLink: "https://forms.gle/t8rZSS2caRUDe2JZA",
   },
   {
@@ -122,6 +125,7 @@ export const events: EventData[] = [
     color: "hsl(262 83% 58%)",
     category: "creative",
     teamSize: "Individual or Team (max 4)",
+    coordinator: "Prof. chakradhar Karan (+91 9938662133)",
     registrationLink: "https://forms.gle/U66VngsbyLNsjeKYA",
   },
   {
@@ -153,6 +157,7 @@ export const events: EventData[] = [
     color: "hsl(142 71% 45%)",
     category: "creative",
     teamSize: "Individual or Team (max 4)",
+    coordinator: "Prof. Jyoti Panda (+91 7735025428)",
     registrationLink: "https://forms.gle/aqNLdr67XMt5hC8u9",
   },
   {
@@ -181,6 +186,7 @@ export const events: EventData[] = [
     color: "hsl(200 80% 50%)",
     category: "arena",
     teamSize: "Individual or Team (max 4)",
+    coordinator: "Prof. Binayak Mishra (+91 8093539537)",
     registrationLink: "https://forms.gle/ZZ5NVCdwJzLrv9dt6",
   },
   {
@@ -210,6 +216,7 @@ export const events: EventData[] = [
     color: "hsl(38 92% 50%)",
     category: "creative",
     teamSize: "Individual or Team (max 4)",
+    coordinator: "Prof. Anjali sahu (+91 9776294542)",
     registrationLink: "https://forms.gle/kt9wFyTVjiH4gvFD7",
   },
   {
@@ -239,6 +246,7 @@ export const events: EventData[] = [
     color: "hsl(280 60% 55%)",
     category: "creative",
     teamSize: "Individual or Team (max 4)",
+    coordinator: "Prof. Anjali sahu (+91 9776294542)",
     registrationLink: "https://forms.gle/H6Ah5SQ5Mm6bzW7V6",
   },
   {
@@ -269,6 +277,7 @@ export const events: EventData[] = [
     color: "hsl(15 85% 55%)",
     category: "stage",
     teamSize: "Individual or Team (max 4)",
+    coordinator: "Prof. Bishnupada Roul (+91 9776535516)",
     registrationLink: "https://forms.gle/siRMCXMfPJUZV8JX8",
   },
   {
@@ -297,6 +306,7 @@ export const events: EventData[] = [
     color: "hsl(45 93% 47%)",
     category: "arena",
     teamSize: "4-6 members",
+    coordinator: "Prof. Himanshu Bhusan Mohapatra (+91 7978552954)",
     registrationLink: "https://forms.gle/wmUPWvyNQyFS3Xrd9",
   },
   {
@@ -325,6 +335,7 @@ export const events: EventData[] = [
     color: "hsl(0 84% 60%)",
     category: "arena",
     teamSize: "1-6 members",
+    coordinator: "Prof. Ambika Prasad Hota (+91 9439687716)",
     registrationLink: "https://forms.gle/eWVnZHx7mhvMtKTNA",
   },
   {
@@ -349,6 +360,7 @@ export const events: EventData[] = [
     color: "hsl(170 75% 41%)",
     category: "stage",
     teamSize: "Individual",
+    coordinator: "Prof. Debananda sahu (+91 7978773214)",
     registrationLink: "https://forms.gle/vHaRBRaBLg4dkvhw9",
   },
   {
@@ -378,6 +390,7 @@ export const events: EventData[] = [
     color: "hsl(320 70% 50%)",
     category: "creative",
     teamSize: "Individual or Team (max 4)",
+    coordinator: "Prof. A. smruti Das (+91 8800853174)",
     registrationLink: "https://forms.gle/YkY4KtLwwcGZnt7x7",
   },
   {
@@ -407,6 +420,7 @@ export const events: EventData[] = [
     color: "hsl(220 70% 55%)",
     category: "creative",
     teamSize: "Individual or Team (max 4)",
+    coordinator: "Prof. Umesh Pradhan (+91 7065670277)",
     registrationLink: "https://forms.gle/APdCpgjXVvxjLxMQ9",
   },
   {
@@ -445,6 +459,7 @@ export const events: EventData[] = [
     color: "hsl(50 90% 50%)",
     category: "stage",
     teamSize: "Individual or Team (max 4)",
+    coordinator: "Prof. Dibyalisha Rath (+91 7894196460)",
     registrationLink: "https://forms.gle/mECKGPw5x4UNgLps5",
   },
 ]

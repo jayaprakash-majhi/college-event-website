@@ -63,16 +63,25 @@ export function FeaturedEvents() {
                     {event.tagline}
                   </p>
 
+                  {/* First line: Team Size + View Button */}
                   <div className="flex items-center justify-between">
                     <div className="flex items-center gap-1.5 text-xs text-muted-foreground">
                       <Users className="h-3.5 w-3.5" />
-                      {event.teamSize}
+                      <span>{event.teamSize}</span>
                     </div>
+
                     <span className="inline-flex items-center gap-1 text-sm font-medium text-primary opacity-0 transition-opacity group-hover:opacity-100">
                       View
                       <ArrowRight className="h-3.5 w-3.5" />
                     </span>
                   </div>
+
+                  {/* Second line: Coordinator */}
+                  <div className="mt-2 flex items-center gap-1.5 text-xs text-muted-foreground">
+                    <Users className="h-3.5 w-3.5" />
+                    <span>{event.coordinator}</span>
+                  </div>
+
                 </div>
               </Link>
             )
