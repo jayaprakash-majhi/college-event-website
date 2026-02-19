@@ -99,13 +99,6 @@ function EventCard({ event }: { event: EventData }) {
             <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
           </span>
         </div>
-
-        {/* Second line: Coordinator */}
-        {/* <div className="mt-2 flex items-center gap-1.5 text-xs text-muted-foreground">
-          <Users className="h-3.5 w-3.5" />
-          <span>{event.coordinator}</span>
-        </div> */}
-
       </div>
     </Link>
   )
