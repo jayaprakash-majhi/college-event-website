@@ -56,7 +56,7 @@ export const events: EventData[] = [
     color: "hsl(25 95% 53%)",
     category: "creative",
     teamSize: "Individual",
-    coordinator: "Prof. Namrata Mishra (+91 778528696)",
+    coordinator: "",
     registrationLink: "https://forms.gle/rabfa6KE4CxLM8mJ8",
   },
   {
@@ -86,7 +86,7 @@ export const events: EventData[] = [
     color: "hsl(340 82% 52%)",
     category: "creative",
     teamSize: "Individual or Team (max 4)",
-    coordinator: "Prof. Irani Majumdar (+91 7008848775)",
+    coordinator: "",
     registrationLink: "https://forms.gle/t8rZSS2caRUDe2JZA",
   },
   {
@@ -125,7 +125,7 @@ export const events: EventData[] = [
     color: "hsl(262 83% 58%)",
     category: "creative",
     teamSize: "Individual or Team (max 4)",
-    coordinator: "Prof. chakradhar Karan (+91 9938662133)",
+    coordinator: "",
     registrationLink: "https://forms.gle/U66VngsbyLNsjeKYA",
   },
   {
@@ -157,7 +157,7 @@ export const events: EventData[] = [
     color: "hsl(142 71% 45%)",
     category: "creative",
     teamSize: "Individual or Team (max 4)",
-    coordinator: "Prof. Jyoti Panda (+91 7735025428)",
+    coordinator: "",
     registrationLink: "https://forms.gle/aqNLdr67XMt5hC8u9",
   },
   {
@@ -186,7 +186,7 @@ export const events: EventData[] = [
     color: "hsl(200 80% 50%)",
     category: "arena",
     teamSize: "Individual or Team (max 4)",
-    coordinator: "Prof. Binayak Mishra (+91 8093539537)",
+    coordinator: "",
     registrationLink: "https://forms.gle/ZZ5NVCdwJzLrv9dt6",
   },
   {
@@ -216,7 +216,7 @@ export const events: EventData[] = [
     color: "hsl(38 92% 50%)",
     category: "creative",
     teamSize: "Individual or Team (max 4)",
-    coordinator: "Prof. Anjali sahu (+91 9776294542)",
+    coordinator: "",
     registrationLink: "https://forms.gle/kt9wFyTVjiH4gvFD7",
   },
   {
@@ -246,7 +246,7 @@ export const events: EventData[] = [
     color: "hsl(280 60% 55%)",
     category: "creative",
     teamSize: "Individual or Team (max 4)",
-    coordinator: "Prof. Anjali sahu (+91 9776294542)",
+    coordinator: "",
     registrationLink: "https://forms.gle/H6Ah5SQ5Mm6bzW7V6",
   },
   {
@@ -277,7 +277,7 @@ export const events: EventData[] = [
     color: "hsl(15 85% 55%)",
     category: "stage",
     teamSize: "Individual or Team (max 4)",
-    coordinator: "Prof. Bishnupada Roul (+91 9776535516)",
+    coordinator: "",
     registrationLink: "https://forms.gle/siRMCXMfPJUZV8JX8",
   },
   {
@@ -306,7 +306,7 @@ export const events: EventData[] = [
     color: "hsl(45 93% 47%)",
     category: "arena",
     teamSize: "4-6 members",
-    coordinator: "Prof. Himanshu Bhusan Mohapatra (+91 7978552954)",
+    coordinator: "",
     registrationLink: "https://forms.gle/wmUPWvyNQyFS3Xrd9",
   },
   {
@@ -335,7 +335,7 @@ export const events: EventData[] = [
     color: "hsl(0 84% 60%)",
     category: "arena",
     teamSize: "1-6 members",
-    coordinator: "Prof. Ambika Prasad Hota (+91 9439687716)",
+    coordinator: "",
     registrationLink: "https://forms.gle/eWVnZHx7mhvMtKTNA",
   },
   {
@@ -360,7 +360,7 @@ export const events: EventData[] = [
     color: "hsl(170 75% 41%)",
     category: "stage",
     teamSize: "Individual",
-    coordinator: "Prof. Debananda sahu (+91 7978773214)",
+    coordinator: "",
     registrationLink: "https://forms.gle/vHaRBRaBLg4dkvhw9",
   },
   {
@@ -390,7 +390,7 @@ export const events: EventData[] = [
     color: "hsl(320 70% 50%)",
     category: "creative",
     teamSize: "Individual or Team (max 4)",
-    coordinator: "Prof. A. smruti Das (+91 8800853174)",
+    coordinator: "",
     registrationLink: "https://forms.gle/YkY4KtLwwcGZnt7x7",
   },
   {
@@ -420,7 +420,7 @@ export const events: EventData[] = [
     color: "hsl(220 70% 55%)",
     category: "creative",
     teamSize: "Individual or Team (max 4)",
-    coordinator: "Prof. Umesh Pradhan (+91 7065670277)",
+    coordinator: "",
     registrationLink: "https://forms.gle/APdCpgjXVvxjLxMQ9",
   },
   {
@@ -459,7 +459,7 @@ export const events: EventData[] = [
     color: "hsl(50 90% 50%)",
     category: "stage",
     teamSize: "Individual or Team (max 4)",
-    coordinator: "Prof. Dibyalisha Rath (+91 7894196460)",
+    coordinator: "",
     registrationLink: "https://forms.gle/mECKGPw5x4UNgLps5",
   },
 ]
