@@ -33,6 +33,13 @@ export default function ContactPage() {
                     <p>B.Tech(Cse)</p>
                     <p className="text-orange-200">📞 +91 7205089574</p>
                 </div>
+                <div className="mb-6 p-4 rounded-xl border border-orange-500 bg-black/60">
+                    <h2 className="text-xl font-semibold mb-2 text-orange-300">
+                        Subhasish Swain(Main Cordinator)
+                    </h2>
+                    <p>B.Tech(Cse)</p>
+                    <p className="text-orange-200">📞 +91 6370021992</p>
+                </div>
 
                 {/* Email Section */}
 
