@@ -100,7 +100,7 @@ export const events: EventData[] = [
     icon: Paintbrush,
     color: "hsl(340 82% 52%)",
     category: "creative",
-    teamSize: "Individual",
+    teamSize: "Team",
     registrationLink: "https://forms.gle/t8rZSS2caRUDe2JZA",
   },
   {
