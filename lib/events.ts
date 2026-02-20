@@ -43,7 +43,7 @@ export const events: EventData[] = [
       "Quality of artistic composition and overall design will be evaluated.",
       "Colour, tone, and balance of the artwork within its space will be judged.",
       "Overall impression and impact of the artwork will be assessed.",
-      "The last date to submit the Art & Crafts is 13th March 2023.",
+      "The last date to submit the Art & Crafts is 27th march 2026",
       "The decision of the judges will be final and binding.",
     ],
 
