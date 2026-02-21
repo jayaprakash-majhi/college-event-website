@@ -570,7 +570,7 @@ export const events: EventData[] = [
     color: "hsl(200 80% 50%)",
     category: "creative",
     teamSize: "Individual (Groups of 5 formed on the spot)",
-    registrationLink: "#",
+    registrationLink: "https://forms.gle/d6Wh5mzumjZv8NpX6",
   },
   {
     id: "eat-and-run",

@@ -106,7 +106,7 @@ export function HeroSection() {
 
         <p className="mx-auto mb-4 max-w-2xl text-lg text-muted-foreground md:text-xl leading-relaxed">
           Gandhi Engineering College.
-          14 electrifying events. One unforgettable experience.
+          20 electrifying events. One unforgettable experience.
         </p>
 
         <p className="mb-10 text-sm uppercase tracking-widest text-primary">
