@@ -11,7 +11,7 @@ import { EventsPopup } from "@/components/events-popup"
 
 
 export default function Countdown() {
-  const targetDate = new Date("February 2, 2026 00:00:00").getTime();
+  const targetDate = new Date("March 2, 2026 00:00:00").getTime();
   const [timeLeft, setTimeLeft] = useState("");
 
   useEffect(() => {
