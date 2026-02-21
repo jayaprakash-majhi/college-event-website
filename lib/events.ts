@@ -538,6 +538,103 @@ export const events: EventData[] = [
     teamSize: "Team (size 2-4)",
     registrationLink: "https://forms.gle/mECKGPw5x4UNgLps5",
   },
+  {
+    id: "guess-what",
+    name: "Guess What!!",
+    tagline: "Draw, Guess, and Pass the Fun!",
+    description:
+      "A fun chain drawing activity where students recreate and guess drawings step by step, testing observation skills, memory, and teamwork.",
+    fullDescription:
+      "Students will participate individually, and groups will be formed on the spot. In a bowl, several drawings will be placed on slips of paper. The first student from each group will pick one slip and draw the image on an A4-size paper. Then, the student will recreate the same drawing on another A4 paper placed on the back of the student standing in front (without directly showing it). The next student will observe and guess the drawing, then draw it again on the back of the next student. This process will continue until it reaches the last student in the line. Finally, the last drawing will be compared with the original drawing. If it closely matches the original, the group will receive marks accordingly.",
+
+    rules: [
+      "Students will participate individually.",
+      "Groups will be formed on the spot.",
+      "Each group will contain 5 students.",
+      "The group receiving the highest marks will be awarded first prize.",
+      "Students must draw step by step in a chain format.",
+      "The student who picks the chit (slip) must not reveal its content to other group members.",
+      "Marks will be awarded to the group whose final drawing closely matches the original drawing.",
+      "The total marks for the activity will be 50.",
+    ],
+
+    evaluation: [
+      "Accuracy of Guessing & Recreation (30%)",
+      "Similarity to Previous Drawing at Each Step (20%)",
+      "Closeness of Final Drawing to Original (30%)",
+      "Group Coordination & Teamwork (20%)",
+
+    ],
+
+    icon: Paintbrush,
+    color: "hsl(200 80% 50%)",
+    category: "creative",
+    teamSize: "Individual (Groups of 5 formed on the spot)",
+    registrationLink: "#",
+  },
+  {
+    id: "eat-and-run",
+    name: "EAT AND RUN",
+    tagline: "Eat Fast. Run Faster!",
+    description:
+      "An exciting duo challenge where teams compete in pairs to complete eating and running tasks in the shortest possible time, testing speed, coordination, and teamwork.",
+    fullDescription:
+      "The Eat and Run Duo Challenge is a fun-filled and energetic team event where participants compete in pairs to complete a series of eating and running tasks as quickly as possible. Each team consists of two members who take turns eating the assigned food item and running to a designated checkpoint before returning to continue the next round. The event focuses on speed, teamwork, coordination, endurance, and sportsmanship. The team that successfully completes all rounds by following the rules and records the lowest completion time will be declared the winner.",
+
+    rules: [
+      "Each team must have 2 members (Duo).",
+      "Both members must participate equally.",
+      "The objective is to complete all eating and running rounds faster than other teams.",
+      "The team that completes the game in the minimum time will win.",
+      "No spitting of food is allowed.",
+      "Members must completely finish the food before running.",
+      "Teams will not be informed about other teams’ completion times; only the coordinator will know.",
+      "Team members must play Rock-Paper-Scissors to decide who eats first and who runs the lap.",
+    ],
+
+    evaluation: [
+      "Total Completion Time (70%)",
+      "Rule Adherence & Fair Play (15%)",
+      "Team Coordination & Equal Participation (15%)",
+    ],
+
+    icon: Trophy,
+    color: "hsl(25 85% 55%)",
+    category: "arena",
+    teamSize: "Team (Duo - 2 Members)",
+    registrationLink: "https://forms.gle/mYVt353kc1PmXK4W7",
+  },
+  {
+    id: "marketing-madness",
+    name: "Marketing Madness",
+    tagline: "Turn Ordinary into Extraordinary!",
+    description:
+      "A super fun non-technical event where participants creatively market random everyday objects like professional advertisers within a limited time.",
+    fullDescription:
+      "Marketing Madness is an exciting and entertaining non-technical event where participants are given a random object and must sell it like a professional marketer. The challenge is to transform an ordinary object into an extraordinary product using confidence, creativity, communication skills, and presence of mind.\n\nRound 1: Pick & Pitch (Elimination Round) – Each participant picks a random object from a box. They get 2 minutes to think and 2 minutes to sell it creatively. Top performers qualify for the next round.\n\nRound 2: Twist Marketing – Participants must sell the same object with a creative twist, such as presenting it as a luxury product, a life-saving invention, or a product designed for aliens. They get 1 minute for preparation and 2 minutes for presentation.\n\nFinal Round: Surprise Challenge – Finalists must sell the object in a specific style, such as a news reporter, Bollywood hero, strict teacher, or motivational speaker. The most entertaining and convincing performance wins.",
+
+    rules: [
+      "Participation is individual.",
+      "Each participant will receive a random object.",
+      "Preparation time must be strictly followed in each round.",
+      "Time limit for presentation must not be exceeded.",
+      "Use of offensive language or inappropriate content is strictly prohibited.",
+      "Judges’ decision will be final and binding.",
+    ],
+
+    evaluation: [
+      "Creativity & Innovation (30%)",
+      "Confidence & Stage Presence (25%)",
+      "Communication & Persuasion Skills (25%)",
+      "Entertainment Value & Audience Engagement (20%)",
+    ],
+
+    icon: Mic,
+    color: "hsl(280 70% 55%)",
+    category: "creative",
+    teamSize: "Individual",
+    registrationLink: "#",
+  }
 ]
 
 export function getEventById(id: string): EventData | undefined {
