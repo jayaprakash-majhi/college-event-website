@@ -100,7 +100,7 @@ export const events: EventData[] = [
     icon: Paintbrush,
     color: "hsl(340 82% 52%)",
     category: "creative",
-    teamSize: "Team",
+    teamSize: "Team (Size 4)",
     registrationLink: "https://forms.gle/t8rZSS2caRUDe2JZA",
   },
   {
@@ -316,7 +316,7 @@ export const events: EventData[] = [
     fullDescription:
       "Esports is the competitive gaming tournament of SRIJANA featuring popular titles like BGMI, Free Fire and more. Players battle it out in bracket-style elimination formats across multiple game titles. Whether you are a solo warrior or a squad leader, this is your arena to prove your gaming dominance. High-energy matches, live commentary, and epic clutch moments await.",
     rules: [
-      "For FreeFire [ rule 2 to 16 ] and For BGMI [ rule 18 to 32 ]",
+      "For FreeFire [ rule 2 to 18 ] and For BGMI [ rule 20 to 36 ]",
       "Team size: 4 main players (Squad format).",
       "Only the team leader can register the team.",
       "All teams must register before the tournament begins.",
@@ -332,7 +332,9 @@ export const events: EventData[] = [
       "Violation may result in warning, point deduction, disqualification, or permanent ban.",
       "No abusive language or toxic behavior.",
       "Players must respect referees, opponents, and follow organizer instructions.",
-      "For BGMI [ rule 18 to 32 ]  and For FreeFire [ rule 2 to 16 ]",
+      "Allotted rooms must be used by assigned teams only. Players must remain available in their designated room during the match schedule.",
+      "Participants must bring their own sound devices (earphones/headphones). If no sound device is available, the in-game sound must remain completely muted.",
+      "For BGMI [ rule 20 to 36 ]  and For FreeFire [ rule 2 to 18 ]",
       "Team size: 4 players (Squad format).",
       "Only the team leader can register the squad.",
       "All participants must complete registration before the tournament starts.",
@@ -347,7 +349,9 @@ export const events: EventData[] = [
       "Stable internet connection is mandatory.",
       "Failure to reconnect within given time may result in forfeiture.",
       "Toxic behavior, abusive language, or misconduct leads to disqualification.",
-      "Organizer's decision will be final in case of disputes."
+      "Organizer's decision will be final in case of disputes.",
+      "Allotted rooms must be used by assigned teams only. Players must remain available in their designated room during the match schedule.",
+      "Participants must bring their own sound devices (earphones/headphones). If no sound device is available, the in-game sound must remain completely muted."
     ],
     evaluation: [
       "Placement Points(Free Fire) (50%) - Based on final match position (1st = 12 pts, 2nd = 9 pts, 3rd = 8pts , 4th = 7 etc.).",
