@@ -133,7 +133,7 @@ export function HeroSection() {
         {/* Stats */}
         <div className="mt-16 flex flex-wrap items-center justify-center gap-8 md:gap-16">
           {[
-            { number: "14", label: "Events" },
+            { number: "18", label: "Events" },
             { number: "3000+", label: "Participants" },
             { number: "2", label: "Days" },
             // { number: "50K+", label: "Prize Pool" },

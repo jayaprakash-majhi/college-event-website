@@ -23,7 +23,7 @@ export function FeaturedEvents() {
             href="/events"
             className="group inline-flex items-center gap-2 text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
           >
-            See all 14 events
+            See all 18 events
             <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
           </Link>
         </div>

@@ -634,6 +634,40 @@ export const events: EventData[] = [
     category: "creative",
     teamSize: "Individual",
     registrationLink: "https://forms.gle/Jp6zULfXf1LkyQkm7",
+  },
+  {
+    id: "lip-sync-battle",
+    name: "Lip-Sync Battle",
+    tagline: "Feel the Beat. Own the Stage!",
+    description:
+      "A fun and entertaining event where participants perform songs by synchronizing their lip movements with pre-recorded music, focusing on expression, creativity, and stage presence.",
+    fullDescription:
+      "Lip-Sync Battle is an exciting performance event where participants showcase their talent by synchronizing their lip movements with pre-recorded songs. The emphasis is not on singing ability but on facial expressions, acting skills, confidence, creativity, and overall entertainment. Participants can enhance their performance using costumes, props, and dance moves to make it lively and engaging. This event provides a platform for students to display their stage presence and performance skills while creating a vibrant and entertaining atmosphere for the audience.",
+
+    rules: [
+      "Participation can be solo or duo (as decided by organizers).",
+      "Time limit: 2–4 minutes per performance.",
+      "Participants must bring their own audio track in advance (pen drive/mobile).",
+      "No live singing is allowed — only lip-sync performance.",
+      "Props and costumes are allowed but must be safe and manageable.",
+      "Vulgar or offensive content is strictly prohibited.",
+      "Participants must report 30 minutes before the event.",
+      "Judges’ decision will be final and binding.",
+    ],
+
+    evaluation: [
+      "Lip Synchronization Accuracy (20%)",
+      "Facial Expressions & Acting (20%)",
+      "Stage Presence & Confidence (20%)",
+      "Creativity & Presentation (20%)",
+      "Overall Entertainment Value (20%)",
+    ],
+
+    icon: Mic,
+    color: "hsl(330 80% 55%)",
+    category: "arena",
+    teamSize: "Solo or Duo",
+    registrationLink: "#",
   }
 ]
 
