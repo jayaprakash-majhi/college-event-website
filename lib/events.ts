@@ -633,7 +633,7 @@ export const events: EventData[] = [
     color: "hsl(280 70% 55%)",
     category: "creative",
     teamSize: "Individual",
-    registrationLink: "#",
+    registrationLink: "https://forms.gle/Jp6zULfXf1LkyQkm7",
   }
 ]
 
