@@ -667,7 +667,7 @@ export const events: EventData[] = [
     color: "hsl(330 80% 55%)",
     category: "arena",
     teamSize: "Solo or Duo",
-    registrationLink: "#",
+    registrationLink: "https://forms.gle/zfnHgrPPB3bNpaQe6",
   }
 ]
 
