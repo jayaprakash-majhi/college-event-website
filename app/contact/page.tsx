@@ -129,7 +129,7 @@ const eventCoordinators = [
         year: "3rd"
     },
     {
-        event: "Up Sync Battle",
+        event: "Lip Sync Battle",
         faculty: "Prof.Saraswati Devi",
         facultyPhone: "9861318329",
         studentCoordinators: ["Rupak Kumar Bera", "Jyoteemayee Barik", "Priyam Priyadarshi", "Roshan Kumar Panda"],
