@@ -92,8 +92,8 @@ const eventCoordinators = [
         event: "Laugh Riot",
         faculty: "Prof. Debanand Sahu",
         facultyPhone: "7978773214",
-        studentCoordinators: ["Rishi kumar Bagria", "Soumyajit Biswal", "Sania Mishra", "Sagnik Roy"],
-        contacts: ["8349798746", "7751990459", "7894529919", "9832762097"],
+        studentCoordinators: ["Rishi kumar Bagria", "Soumyajit Biswal", "Sania Mishra", "Subrat Mallick"],
+        contacts: ["8349798746", "7751990459", "7894529919", "9938490920"],
         year: "1st"
     },
     {
