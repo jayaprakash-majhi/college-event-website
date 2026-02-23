@@ -582,20 +582,35 @@ export const events: EventData[] = [
       "The Eat and Run Duo Challenge is a fun-filled and energetic team event where participants compete in pairs to complete a series of eating and running tasks as quickly as possible. Each team consists of two members who take turns eating the assigned food item and running to a designated checkpoint before returning to continue the next round. The event focuses on speed, teamwork, coordination, endurance, and sportsmanship. The team that successfully completes all rounds by following the rules and records the lowest completion time will be declared the winner.",
 
     rules: [
-      "Each team must have 2 members (Duo).",
-      "Both members must participate equally.",
-      "The objective is to complete all eating and running rounds faster than other teams.",
-      "The team that completes the game in the minimum time will win.",
-      "No spitting of food is allowed.",
-      "Members must completely finish the food before running.",
-      "Teams will not be informed about other teams’ completion times; only the coordinator will know.",
-      "Team members must play Rock-Paper-Scissors to decide who eats first and who runs the lap.",
+      "Each team must consist of 2 members (Duo format).",
+      "All tasks must be completed in the given sequence.",
+      "Participants cannot skip any activity.",
+      "No team is allowed to leave a task incomplete and move ahead.",
+
+      "Stage 1: Activity Round includes three tasks — Guess the Movie, Ball Throw into Pot, and Card Pyramid.",
+
+      "Guess the Movie Round: One teammate will be given a movie name and must explain it only through actions.",
+      "No speaking, writing, lip-syncing, or sound is allowed during the action round.",
+      "The movie must be guessed within the given time limit to proceed.",
+
+      "Ball Throw Round: The participant must successfully throw the ball into the designated pot before moving ahead.",
+
+      "Card Pyramid Round: The team must build a stable card pyramid as instructed. The structure must stand properly to qualify.",
+
+      "Stage 2: After completing all activities, both members must run to the food station.",
+      "Both participants must play Stone–Paper–Scissors to decide who eats.",
+      "The winner of Stone–Paper–Scissors will eat the food.",
+      "The food must be completely finished to qualify.",
+
+      "All tasks must be completed within the given time limit.",
+      "Judges’ decision will be final in case of any dispute."
     ],
 
     evaluation: [
-      "Total Completion Time (70%)",
-      "Rule Adherence & Fair Play (15%)",
-      "Team Coordination & Equal Participation (15%)",
+      "Total Completion Time (60%) - Time taken to complete all activity and food rounds.",
+      "Task Accuracy & Completion (20%) - Proper completion of all tasks without rule violations.",
+      "Team Coordination & Participation (10%) - Equal involvement and smooth teamwork.",
+      "Fair Play & Rule Adherence (10%) - Following all instructions and maintaining sportsmanship."
     ],
 
     icon: Trophy,
