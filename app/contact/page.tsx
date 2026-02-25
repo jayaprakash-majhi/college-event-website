@@ -36,8 +36,8 @@ const eventCoordinators = [
         event: "Brain Battle",
         faculty: "Prof Binayak Mishra",
         facultyPhone: "8093539537",
-        studentCoordinators: ["Satya sundar Giri", "Jayaprakash Majhi", "Mrutyunjay Swain", "Manas Ranjan Rana", "Satyajit Bal", "Santosh Kumar Rout"],
-        contacts: ["8456033655", "7205089574", "7609910671", "9938070761", "7978253647", "7838858095"],
+        studentCoordinators: ["Satya sundar Giri", "Jayaprakash Majhi", "Mrutyunjay Swain", "Manas Ranjan Rana", "Ankita Behera", "Santosh Kumar Rout"],
+        contacts: ["8456033655", "7205089574", "7609910671", "9938070761", "7008796477", "7838858095"],
         year: "3rd"
     },
     {
@@ -52,24 +52,24 @@ const eventCoordinators = [
         event: "Rangstav - The Art of Colors",
         faculty: "Prof.Anjali Sahu",
         facultyPhone: "9776294542",
-        studentCoordinators: ["Rishi Kumar Sahoo", "Sania Mishra", "Ankita Jena", "Kanishka Kumari"],
-        contacts: ["8984803480", "7894529919", "6371096234", "8102720500"],
+        studentCoordinators: ["Rishi Kumar Sahoo", "Sania Mishra", "Ankita Jena", "Kanishka Kumari", "Smruti Rekha Priyadarsini Das"],
+        contacts: ["8984803480", "7894529919", "6371096234", "8102720500", "9937273513"],
         year: "2nd"
     },
     {
         event: "Esports",
         faculty: "Prof Himanshu Bhusan Mohapatra",
         facultyPhone: "7978552954",
-        studentCoordinators: ["Sushil Parida", "Paresh Kumar Jena", "Matru Prasad Mohanty", "Rajmilan Samal", "Abhisek Dash", "Binit Ranjan Nayak", "Rishi kumar Bagria", "Rishabh Kumar"],
-        contacts: ["7894547073", "9302391275", "9337734580", "8260676329", "8249890306", "7750943171", "8349798746", "7250056887"],
+        studentCoordinators: ["Sushil Parida", "Paresh Kumar Jena", "Matru Prasad Mohanty", "Rajmilan Samal", "Abhisek Dash", "Binit Ranjan Nayak", "Rishi kumar Bagria", "Rishabh Kumar", "Ronak Kumar Sahoo"],
+        contacts: ["7894547073", "9302391275", "9337734580", "8260676329", "8249890306", "7750943171", "8349798746", "7250056887", "8260839735"],
         year: "3rd"
     },
     {
         event: "Flavour Fiesta",
         faculty: "Prof Dibyalisha Rath",
         facultyPhone: "7894196460",
-        studentCoordinators: ["Niharika Sahu", "Aanksha Panda", "Sunil Pradhan", "Sweatapadma Sahoo"],
-        contacts: ["9508938704", "7605985406", "7609906034", "8144955215"],
+        studentCoordinators: ["Niharika Sahu", "Drixsha Nandini Sahu", "Sunil Pradhan", "Sweatapadma Sahoo"],
+        contacts: ["9508938704", "7978365733", "7609906034", "8144955215"],
         year: "2nd"
     },
     {
@@ -84,8 +84,8 @@ const eventCoordinators = [
         event: "Pot Design",
         faculty: "Prof.Smruti Das",
         facultyPhone: "8800853174",
-        studentCoordinators: ["Swatisudha Routray", "Juel Jaslin Sahoo", "Aparajita Nanda", "Sibunarayan Dash"],
-        contacts: ["8260116073", "8260818040", "9692951228", "7894894171"],
+        studentCoordinators: ["Swatisudha Routray", "Juel Jaslin Sahoo", "Bikash Nayak", "Sibunarayan Dash"],
+        contacts: ["8260116073", "8260818040", "8144080155", "7894894171"],
         year: "2nd"
     },
     {
@@ -100,8 +100,8 @@ const eventCoordinators = [
         event: "Talent Spotlight",
         faculty: "Prof. Bishnupada Roul",
         facultyPhone: "9776535516",
-        studentCoordinators: ["T.Priyanka Patra", "Tejaswi Raj", "Archita Sahoo", "Priti Pragyan Biswal"],
-        contacts: ["9827421482", "9263378468", "7735093979", "9777124371"],
+        studentCoordinators: ["T.Priyanka Patra", "Tejaswi Raj", "Archita Sahoo", "Priti Pragyan Biswal", "Ayush Kumar"],
+        contacts: ["9827421482", "9263378468", "7735093979", "9777124371", "9153453110"],
         year: "2nd"
     },
     {
@@ -132,8 +132,8 @@ const eventCoordinators = [
         event: "Lip Sync Battle",
         faculty: "Prof.Saraswati Devi",
         facultyPhone: "9861318329",
-        studentCoordinators: ["Rupak Kumar Bera", "Jyoteemayee Barik", "Priyam Priyadarshi", "Roshan Kumar Panda"],
-        contacts: ["9229919200", "9348771986", "9692225267", "8763252728"],
+        studentCoordinators: ["Rupak Kumar Bera", "Jyoteemayee Barik", "Asish Kumar Jena", "Biswarupa Swain"],
+        contacts: ["9229919200", "9348771986", "8455033517", "7681084972"],
         year: "2nd"
     },
     {
