@@ -32,10 +32,10 @@ export default function SchedulePage() {
                             </tr>
 
                             <tr>
-                                <td className="p-2 sm:p-3 border border-orange-500">Esports</td>
+                                <td className="p-2 sm:p-3 border border-orange-500">Esports(2nd Round) </td>
                                 <td className="p-2 sm:p-3 border border-orange-500">26.02.2026</td>
-                                <td className="p-2 sm:p-3 border border-orange-500">5:00 PM</td>
-                                <td className="p-2 sm:p-3 border border-orange-500">5:30 PM</td>
+                                <td className="p-2 sm:p-3 border border-orange-500">6:00 PM</td>
+                                <td className="p-2 sm:p-3 border border-orange-500">6:15 PM</td>
                                 <td className="p-2 sm:p-3 border border-orange-500">Lawn</td>
                             </tr>
                         </tbody>
