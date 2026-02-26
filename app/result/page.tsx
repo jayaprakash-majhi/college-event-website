@@ -6,7 +6,7 @@ export default function SchedulePage() {
 
             {/* Page Heading */}
             <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-orange-400 text-center mb-8">
-                1st Round Winner Team List
+                Esports 1st Round Winner Team List
             </h1>
 
             <div className="flex flex-col md:flex-row gap-6 md:gap-10 max-w-6xl mx-auto">
