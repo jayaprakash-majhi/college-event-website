@@ -59,6 +59,12 @@ export function Navbar() {
           >
             Result
           </Link>
+          <Link
+            href="/result2"
+            className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+          >
+            Result(Art Gallery)
+          </Link>
 
 
           <Link
@@ -132,6 +138,13 @@ export function Navbar() {
               className="rounded-lg px-4 py-3 text-foreground transition-colors hover:bg-secondary"
             >
               Result
+            </Link>
+            <Link
+              href="/result2"
+              onClick={() => setIsOpen(false)}
+              className="rounded-lg px-4 py-3 text-foreground transition-colors hover:bg-secondary"
+            >
+              Result(Art Gallery)
             </Link>
             <Link
               href="/contact"
