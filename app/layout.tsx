@@ -14,11 +14,8 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'SRIJANA',
+  title: 'SRIJANA ',
   description: 'Gandhi Engineering College',
-  icons: {
-    icon: '/placeholder-logo.png',
-  },
 }
 
 export const viewport: Viewport = {
