@@ -26,7 +26,7 @@ export default function WinnersPage() {
         },
         {
             event: "Rangotsav",
-            first: ["Ankita Mangraj", "Ipsita Bhugan"],
+            first: ["Ankita Mangraj", "Ipsita Bhuyan"],
             second: ["Swayamprabha Padhi", "Juel Jaslin Sahoo"],
             third: ["Payal Biswal", "Advin Kumar"],
             cons: ["Riya Kumari", "Anjali Kumari"]
