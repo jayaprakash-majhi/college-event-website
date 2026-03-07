@@ -23,7 +23,7 @@ export default function SchedulePage() {
                                 Event Dates
                             </td>
                             <td className="p-3 border border-orange-500">
-                                28th February – 1st March
+                                28th Feb – 1st Mar
                             </td>
                         </tr>
                         <tr className="text-center">
